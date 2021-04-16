@@ -3,7 +3,7 @@ from msrest.authentication import BasicAuthentication
 from azure.devops.v6_0.member_entitlement_management import *
 
 
-personal_access_token = "j3hy4iby2l24qa5c3nvpqbukvz2lk4ol5554vn425jy6jwkw6rwa"
+personal_access_token = ""
 organization_url = 'https://dev.azure.com/pavantikkani'
 
 credentials = BasicAuthentication('', personal_access_token)
